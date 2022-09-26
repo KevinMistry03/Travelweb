@@ -1,0 +1,67 @@
+:root {
+  --background-color: #fefefe;
+  --text-color: #3f3f3f;
+}
+
+.dark-mode {
+  --background-color: #141212;
+  --text-color: #ffffff;
+  transition: .5s;
+}
+
+.dark-mode .rounded-0{
+  --background-color: #141212;
+  --text-color: #ffffff;
+  transition: .5s;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+
+.dark-mode .fixed-top{
+  --background-color: #141212;
+  --text-color: #ffffff;
+  transition: .5s;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+
+.dark-mode .CgProfile{
+  --background-color: #141212;
+  --text-color: #ffffff;
+  transition: .5s;
+  margin-bottom: 0.5rem;
+  color: #141212;
+}
+
+.dark-mode .card-title{
+  --background-color: #141212;
+  --text-color: #ffffff;
+  transition: .5s;
+  margin-bottom: 0.5rem;
+  color: #141212;
+}
+
+.dark-mode .card-text{
+  color: #141212;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
